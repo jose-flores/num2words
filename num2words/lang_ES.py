@@ -25,6 +25,7 @@ from .lang_EU import Num2Word_EU
 class Num2Word_ES(Num2Word_EU):
     CURRENCY_FORMS = {
         'EUR': (('euro', 'euros'), ('céntimo', 'céntimos')),
+        'DOP': (('peso', 'pesos'), ('centavo', 'centavos')),
         'ESP': (('peseta', 'pesetas'), ('céntimo', 'céntimos')),
         'USD': (('dolar', 'dólares'), ('centavo', 'centavos')),
         'PEN': (('sol', 'soles'), ('céntimo', 'céntimos')),
